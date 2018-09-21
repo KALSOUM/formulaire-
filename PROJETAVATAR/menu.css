@@ -1,0 +1,46 @@
+#galerie-menu 
+{
+	width:670px;
+	margin:auto;
+	border:dashed;
+	border-radius:5px;
+	box-shadow:2px 2px 5px purple;
+	background: white;
+	text-align:center;
+	}
+#galerie-menu a img 
+{
+	height:120px;
+	width:120px;
+	
+	
+}
+#galerie-menu a 
+{
+	border-radius:15px;
+	display:inline-block;
+	transform:scale(0.75);
+	overflow:hidden; /*gerer les debordement*/
+	border:solid lightyellow;
+	transition:1s;
+	
+
+}
+#galerie-menu a:hover,#galerie-menu a:focus 
+{
+	transform:scale(2.07);
+	transform-origin:top center;
+	background:white;
+	transition:1s;
+}
+#galerie-menu a:before 
+{
+	content:attr(title);
+	position:absolute;
+	color:white;
+	bottom:0;
+	box-shadow: 3px white;
+	width:100%;
+}
+
+	

@@ -1,0 +1,182 @@
+h1,h2,strong
+{
+  color: black;
+}
+big
+{
+text-decoration: underline;
+}
+body
+{
+	font-family:Monotype Corsiva;
+	font-size: 25px;
+	/*background-image: url("image/d.jpg");*/
+	background-attachment: fixed;
+background-color: #fff; 
+color:black;
+}
+
+{
+}
+h1,h2
+{
+
+}
+mark,.ops
+{
+color: red;
+font-style: italic;
+text-decoration: none;
+}
+mark:hover
+{
+color: blue;
+text-decoration: underline;
+}
+.intro
+{
+font-size: 35px;
+font-style: italic;
+}
+.foot
+{
+   background-color: black;
+	background-image: url("image/b.jpg"); 
+	border-radius:100px;
+	height: 10%;
+	width: 50%
+}
+
+img
+{
+ border-radius: 40px;
+ 
+}
+.ops
+{
+	color: red;
+	font-size: 21px
+}
+.PORT a
+{
+	
+	display:inline-block;
+	transform:scale(0.75);
+	overflow:hidden; /*gerer les debordement*/
+	transition:1s;
+	
+}
+.PORT a:hover,.PORT a:focus 
+{
+	transform:scale(2.07);
+	transform-origin:top center;
+	background:white;
+	transition:1s;
+}
+.PORT 
+
+{
+	margin:auto;
+	height:80%;
+	width:100%;
+	
+	}
+	.bon
+	{
+color: black;
+	}
+	input {
+		position: relative;
+		background:fuchsia!important;
+		border: solid #ffffff;
+		color: #FFFFFF;
+		top: 0em;
+		overflow: hidden;
+		border-radius: 2rem;
+		text-decoration: none;
+		 line-height: 1.1;
+		 letter-spacing: .6px;
+		 padding: 1rem 4rem;
+		 left: 4rem;
+		 border: solid #fff;
+	}
+	textarea{
+		background-color: fuchsia!important;
+		border: solid 2px;
+		right: 20px;
+	}
+	form{
+		position: relative;
+		text-align: center;
+		
+	}
+	.formulaire{
+		position: relative;
+		top: 16em;
+	}
+	.MES{
+position: relative;
+padding: 1rem 4rem;
+	}
+	.navbar-dark{
+		background-color: fuchsia !important;
+		height: 250px;
+}
+.form-control{
+	position: relative;
+	background-color: fuchsia ;
+}
+.radio-inline 
+{
+	position: relative;
+	display:inline;
+    padding: 2em;
+}.checkbox-inline	
+	{
+		position: relative;
+		display:inline;
+	    padding: 2em;
+	}
+	
+input[type="checkbox"] {
+
+	position: relative;
+    left: 5em;
+
+    
+}input[type="radio"]
+{
+position: relative;
+left:-1em;
+
+}
+/*button{
+position: relative;
+background: rgb(226, 223, 223);!important;
+top: 4em;
+overflow: hidden;
+border-radius: 2rem;
+text-decoration: none;
+ line-height: 1.1;
+ letter-spacing: .6px;
+ padding: 1rem 4rem;
+ border: solid #fff;
+ text-align:center;
+left:20em;
+
+ }
+*/
+.navbar-brand
+{
+background-image: url("image/coeur.gif");
+width:270px; 
+height:300px;
+padding-left: 5em;
+padding-right: 2em;
+margin-right:50px;
+
+}
+/*.radio{
+	position: relative;
+	left: 0.9em;
+}*/
